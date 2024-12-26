@@ -11,12 +11,13 @@ import Private from "./routes/Private";
 import Admin from "./routes/Admin";
 import AdminDashboard from "./pages/AdminDashboard";
 import Cart from "./pages/Cart";
+import Updateprod from "./pages/Updateprod";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Dashboard />} />
         <Route path="/Login" element={<Login />} />
         {/* <Route path="/Dashboard" element={<Dashboard />} /> */}
 
@@ -28,6 +29,7 @@ function App() {
         </Route>
         <Route path="/Dashboard" element={<Admin />}>
           <Route path="admin" element={<AdminDashboard />} />
+          <Route path="admin/product/:slug" element={<Updateprod />} />
         </Route>
         <Route path="/Register" element={<Register />} />
         <Route path="*" element={<Notfound />} />

@@ -86,8 +86,7 @@ const Navbar = ({ name, count }) => {
           </div>
           {auth.user && (
             <div className="username">
-              <h1>Welcome,</h1>
-              <h2>{auth.user.name}</h2>
+              <h1>Welcome {auth.user.name}</h1>
             </div>
           )}
         </div>

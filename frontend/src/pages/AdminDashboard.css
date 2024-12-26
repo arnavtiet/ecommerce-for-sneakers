@@ -3,6 +3,12 @@
     display: flex;
     font-family: Arial, sans-serif;
   }
+
+  .table-button{
+    display: flex;
+    gap: 3rem;
+    flex-direction: row;
+  }
   
   /* Sidebar Styles */
   .dashboard_sidebar {

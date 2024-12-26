@@ -28,8 +28,8 @@ routes.get("/getCategory", getCategoryController);
 routes.get("/singleCategory/:slug", singleCategoryController);
 
 //delete category
-routes.get(
-  "/deleteCategory/:id",
+routes.delete(
+  "/delete-category/:id",
   requireSignIn,
   isAdmin,
   deleteCategoryController

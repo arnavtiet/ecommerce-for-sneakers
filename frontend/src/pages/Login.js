@@ -64,7 +64,7 @@ const Login = () => {
   };
   return (
     <Layout>
-      <div className="container">
+      <div className="cont">
         <div className="image-left">
           <img src={leftimage} alt="left" loop />
         </div>

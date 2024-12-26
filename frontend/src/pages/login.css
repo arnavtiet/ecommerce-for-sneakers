@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
 
-.container {
+.cont {
   margin-top: 10vh;
   height: 90vh;
   width: 100%;
@@ -14,7 +14,7 @@
   background-color: blanchedalmond;
   margin: 1rem;
   border-radius: 1.3rem;
-  height: 58vh;
+  height: 59vh;
   box-shadow: 0.5rem 0.5rem  #D5BDAF;
   transition: all 0.2s;
   margin-top: 1.2rem;
